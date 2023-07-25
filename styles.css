@@ -1,0 +1,185 @@
+
+/* Загальні стилі для тіла сторінки */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: lightblue; /* Общий фон для сторінки */
+  background-image: url("шлях_до_вашого_фонового_зображення.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Стилі для заголовка */
+h1#about-me {
+  text-align: center;
+  margin-top: 30px;
+  color: #fff;
+  background-color: #00a86b; /* Фон для заголовка */
+  padding: 20px 0;
+}
+
+/* Стилі для основного тексту */
+p#introduction, ul, table {
+  margin: 10px 0;
+  padding-left: 20px; /* Відступи зліва */
+}
+
+/* Стилі для фото секції */
+.photo-section {
+  background-color: #334; /* Фоновий колір для секції з фото */
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Стилі для фото */
+img {
+  display: block;
+  margin: 20px auto; /* Центруємо фото горизонтально */
+  border-radius: 50%; /* Зробимо фото круглої форми */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилі для списку */
+ul {
+  padding-left: 40px; /* Збільшимо відступ для списку */
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Стилі для таблиці */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  padding-left: 20px; /* Відступ для таблиці */
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Стилі для кнопок */
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #0064e4; /* Цветные кнопки */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Плавний перехід для зміни відтінку */
+}
+
+/* Зміна відтінку кнопок при наведенні курсору */
+button:hover {
+  background-color: #0040a4; /* Новий відтінок при наведенні */
+}
+
+/* Стилі для посилань в кнопках */
+button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Стилі для кнопки "Back to Top" */
+button#back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+/* Стилі для футера */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Фон для столбців "My favorite car brands" і "My favorite movies" */
+td {
+  background-color: #DEB887;
+}
+
+/* Фон для заголовка "My favorite car brands" */
+table h2:first-child {
+  background-color: #00a86b;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+/* Фон для заголовка "My favorite movies" */
+table h2:last-child {
+  background-color: #ff7f00;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+/* Фон для розділу "About me and my hobby" */
+.section-about {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+/* Фон для розділу "Top Popular Detailing Services" */
+.section-services {
+  background-color: #ff7f00;
+  color: #fff;
+  padding: 40px;
+}
+.header {
+	color: #00a86b;
+	text-align: center;
+}
+
+.button {
+	color: #fff;
+}
+.contact-m {
+	padding: 20px;
+}
+/* Стилі для фото секції */
+.photo-section {
+  background-color: #DEB887; /* Фоновий колір для секції з фото */
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Стилі для фото */
+img {
+  display: block;
+  margin: 20px auto; /* Убираем отступы по вертикали, чтобы изображения не "скакали" */
+  border-radius: 50%; /* Зробимо фото круглої форми */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  height: 250px;
+}
+.text {
+	padding: 35px;
+}
+.centr {
+	text-align: center;
+}
+.Contact {
+      text-align: center;
+      background-color: #00a86b; /* Set the desired background color for Contact */
+      color: #fff; /* Set the text color to white */
+      padding: 20px 0; /* Add some padding to the top and bottom of the heading */
+    }
+	.Gallery {
+	text-align: center;
+	background-color: #00a86b;
+	}
+	
